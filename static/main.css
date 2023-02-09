@@ -1,0 +1,48 @@
+
+input {
+  font-size: 16px;
+  line-height: 24px;
+  color: #353740;
+  font-family: "ColfaxAI", Helvetica, sans-serif;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #202123;
+  margin: 16px 0 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+input[type="text"] {
+  padding: 12px 16px;
+  border: 1px solid #0aa305;
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+::placeholder {
+  color: #8e8ea0;
+  opacity: 1;
+}
+input[type="submit"] {
+  padding: 12px 0;
+  color: #fff;
+  background-color: #0ce49c;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+}
+.image {
+  margin-top: 40px;
+}
+
+.image img{
+  width: 280px;
+  height: 280px;
+}
